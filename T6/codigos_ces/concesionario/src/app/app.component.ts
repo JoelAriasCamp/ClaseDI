@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
+import { Coche, CocheClase } from './model/coche';
 
 @Component({
-  selector: 'app-root',
+  selector: 'concesionario-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {
-  nombre: String = 'Borja';
-  apellido: String = 'Martin';
-  edad: number = 40;
-}
+export class AppComponent {}
